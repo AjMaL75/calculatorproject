@@ -1,0 +1,25 @@
+button{
+    border-radius: 10px;
+}
+#main{
+    border-radius: 30px;
+    height: 330px;
+    
+}
+/* #plus{
+    height: 80px;
+} */
+/* #lastro{
+    margin-left: 50px;
+} */
+#firstrow,#secondrow,#thirdrow,#fourthrow,#lastro{
+    margin:  0px 0px 0px 3px
+    
+}
+#result{
+    background-color: grey;
+}
+#leftbra,#rightbra,#divi,#mult,#sub,#plus,#equal{
+    background-color: aqua;
+    color: white;
+}
