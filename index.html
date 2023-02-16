@@ -13,17 +13,17 @@
 
 </head>
 
-<body>
+<body style="background-color: black;">
    <div class="bg-info container w-50 mt-5 border" id="main">
       <h2 class="text-center mt-3">CASIO</h2>
       <input type="text" class="form-control text-white " id="result">
       <div id="firstrow" class="row mt-3 ">
          <div class="col-3"><button id="but1" class="text-white bg-warning  border border-top-0 "
-               onclick="clearAll()">CL</button></div>
+               onclick="clearAll()">AC</button></div>
          <div class="col-3"><button class="text-white bg-warning  border border-top-0" onclick="backSpace()"><i class="fa-solid fa-delete-left"></i></button>
          </div>
-         <div class="col-3"><button class="border border-top-0" onclick="displayNum('(')" id="leftbra">(</button></div>
-         <div class="col-3"><button class="border border-top-0" onclick="displayNum(')')" id="rightbra">)</button></div>
+         <div class="col-3"><button class="border border-top-0" onclick="displayNum('**2')" id="leftbra"><i class="fa-solid fa-superscript"></i></button></div>
+         <div class="col-3"><button class="border border-top-0" onclick="displayNum('%')" id="rightbra"><i class="fa-solid fa-percent"></i></button></div>
       </div>
       <div class="row mt-3  " id="secondrow">
          <div class="col-3" class="btn1"><button class="text-info bg-white  border border-top-0"
@@ -55,7 +55,7 @@
       <div class="row mt-3 " id="lastro">
          <div class="col-3"><button class="text-info bg-white  border border-top-0" onclick="displayNum(0)"><i class="fa-solid fa-0"></i></button>
          </div>
-         <div class="col-3"><button class=" text-info bg-white border border-top-0" onclick="displayNum('.')" id="dot">.</button>
+         <div class="col-3"><button class=" text-info bg-white border border-top-0" onclick="displayNum('.')" id="dot"><img src="./full-stop.png" alt="" style="height: 6px;width: 9px; color: aqua;"></button>
          </div>
          <div class="col-3"><button class="border border-top-0" onclick="finalResult()" id="equal"><i class="fa-solid fa-equals"></i></button></div>
          <div class="col-3"><button class="border border-top-0" onclick="displayNum('+')" id="plus"><i class="fa-solid fa-plus"></i></button></div>
